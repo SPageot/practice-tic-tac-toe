@@ -23,17 +23,30 @@ const PlayerModalContainer = styled("div")`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+
+  @media (max-width: 710px) {
+    width: 100%;
+    border-radius: 0;
+  }
 `;
 
 const PlayerName = styled("h2")`
   font-size: 3rem;
   color: #fff;
+
+  @media (max-width: 710px) {
+    font-size: 2rem;
+  }
 `;
 
 const PlayerInput = styled("input")`
   height: 10%;
   width: 80%;
   border: none;
+
+  @media (max-width: 710px) {
+    width: 90%;
+  }
 `;
 
 const PlayerModal = ({
