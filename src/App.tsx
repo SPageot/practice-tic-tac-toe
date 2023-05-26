@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import styled from "styled-components";
 import Game from "./components/Game/Game";
 import AppButton from "./components/AppButton/AppButton";
@@ -33,11 +33,11 @@ function App() {
   });
 
   const handlePlayerOne = () => {
-    setPlayerNames({ ...playerNames, playerOne: playerOneRef.current.value });
+    setPlayerNames({ ...playerNames, playerOne: playerOneRef.current?.value });
   };
 
   const handlePlayerTwo = () => {
-    setPlayerNames({ ...playerNames, playerTwo: playerTwoRef.current.value });
+    setPlayerNames({ ...playerNames, playerTwo: playerTwoRef.current?.value });
   };
 
   return (

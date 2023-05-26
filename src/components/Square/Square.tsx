@@ -18,7 +18,7 @@ const Square = ({
   value,
   onSquareClick,
 }: {
-  value: string;
+  value: string | null;
   onSquareClick: () => void;
 }) => {
   return (
