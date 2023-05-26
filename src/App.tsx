@@ -46,7 +46,7 @@ function App() {
         <Game players={playerNames} />
       ) : (
         <WelcomeContainer>
-          <MainHeader />
+          <MainHeader value="Tic Tac Toe" />
           <AppButton buttonName="Start" onClick={() => setStartGame(true)} />
         </WelcomeContainer>
       )}

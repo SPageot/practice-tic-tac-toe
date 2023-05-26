@@ -5,8 +5,8 @@ const Header = styled("h1")`
   font-size: 7rem;
 `;
 
-const MainHeader = () => {
-  return <Header>TIC TAC TOE</Header>;
+const MainHeader = ({ value }: { value: string }) => {
+  return <Header>{value}</Header>;
 };
 
 export default MainHeader;
