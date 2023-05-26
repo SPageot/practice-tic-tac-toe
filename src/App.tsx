@@ -6,7 +6,7 @@ import MainHeader from "./components/typography/MainHeader/MainHeader";
 import PlayerModal from "./components/PlayerModal/PlayerModal";
 
 const AppContainer = styled("main")`
-  height: 100vmin;
+  height: 100vh;
   background-color: #000080;
   position: relative;
 `;

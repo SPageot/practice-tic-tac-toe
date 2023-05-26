@@ -7,6 +7,12 @@ const SquareContainer = styled("section")`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 470px) {
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+  }
 `;
 
 const SquareChoice = styled("span")`

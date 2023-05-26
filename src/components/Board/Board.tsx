@@ -6,6 +6,12 @@ const BoardContainer = styled("section")`
   width: 450px;
   display: flex;
   flex-wrap: wrap;
+
+  @media (max-width: 470px) {
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+  }
 `;
 
 const Board = ({

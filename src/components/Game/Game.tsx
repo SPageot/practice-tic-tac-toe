@@ -12,6 +12,10 @@ const GameContainer = styled("section")`
   justify-content: space-evenly;
   align-items: center;
   position: relative;
+
+  @media(max-width: 1500px){
+    flex-direction: column;
+  }
 `;
 
 const GameOverContainer = styled("div")`
